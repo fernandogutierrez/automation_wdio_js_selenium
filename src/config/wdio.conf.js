@@ -1,3 +1,6 @@
+const argv = require('yargs').argv;
+let browser = argv.browser || 'firefox';
+
 exports.config = {
     
     //
@@ -44,7 +47,7 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 5,
         //
-        browserName: 'chrome'
+        browserName: browser
     }],
     //
     // ===================
