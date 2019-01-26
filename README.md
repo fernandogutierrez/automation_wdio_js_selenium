@@ -18,6 +18,12 @@ npm install selenium-standalone@latest -g
 selenium-standalone install
 ```
 
+3. Install node modules
+
+```
+npm install
+```
+
 # Run tests
 ```
 .\node_modules\.bin\wdio .\src\config\wdio.conf.js
